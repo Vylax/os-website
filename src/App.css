@@ -1,0 +1,48 @@
+/* General Style */
+body {
+    background-color: #29B0E6;
+  }
+  
+  /* Typography */
+  h4, h6 {
+    color: #999214;
+  }
+  
+  /* Grid Container */
+  .MuiGrid-container {
+    background-color: #0C7199;
+    padding: 20px;
+  }
+  
+  /* Card */
+  .MuiCard-root {
+    background-color: #E6DA12;
+  }
+  
+  /* Card Media */
+  .MuiCardMedia-root {
+    height: 200px;
+  }
+  
+  /* Card Content */
+  .MuiCardContent-root {
+    background-color: #E64060;
+    color: #999214;
+  }
+  
+  /* Expansion Panel */
+  .MuiExpansionPanel-root.Mui-expanded {
+    background-color: #E64060;
+  }
+  
+  /* Expansion Panel Summary */
+  .MuiExpansionPanelSummary-content.Mui-expanded {
+    color: #999214;
+  }
+  
+  /* Expansion Panel Details */
+  .MuiExpansionPanelDetails-root.Mui-expanded {
+    background-color: #E6DA12;
+    color: #999214;
+  }
+  
