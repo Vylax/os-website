@@ -54,10 +54,13 @@ function App() {
                 The robot uses two main algorithms for navigation and task execution:
                 <ul>
                   <li>
-                    <b>Ball identification:</b> The robot uses its ultrasonic sensor while rotating on itself to cast rays of its surroundings. The rays data are then processed to identify potential balls using trigonometry. If a ball is detected, the robot will change its direction to align with it.
+                    <b>Ball identification:</b> The robot uses its ultrasonic sensor while rotating on itself to cast rays on its surroundings. The rays data are then processed to identify potential balls using trigonometry. If a ball is detected, the robot will change its direction to align with it.
                   </li>
                   <li>
-                    <b>Grabbing routine</b> The robot uses its IR sensor to detect a black line on the ground. It will follow the line using a PID controller algorithm to adjust its speed and direction.
+                    <b>Grabbing routine</b> TODO
+                  </li>
+                  <li>
+                    <b>Throwing routine</b> TODO
                   </li>
                 </ul>
               </Typography>
@@ -72,7 +75,7 @@ function App() {
           </ExpansionPanelSummary>
           <ExpansionPanelDetails>
             <Typography variant="body2">
-              The source code for the robot is available in a private git repository. To access the code, please contact the team members for the password.
+              The source code for the robot is available in a git repository TODO. To access the code, please contact the team members for the password.
               <br />
               To use the code, you will need to:
               <ol>
@@ -88,7 +91,7 @@ function App() {
       </Box>
       <Box my={4}>
         <Typography variant="h6" align="center">
-          Videos of the Robot in Action
+          Pictures and videos of the Robot in Action
         </Typography>
         <Card>
           <CardMedia component="video" src={video} title="Robot in action" />

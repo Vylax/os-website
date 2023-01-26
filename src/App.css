@@ -1,22 +1,22 @@
 /* General Style */
 body {
-    background-color: #29B0E6;
+    background-color: #51C8F2;
   }
   
   /* Typography */
   h4, h6 {
-    color: #999214;
+    color: #F3C91E;
   }
   
   /* Grid Container */
   .MuiGrid-container {
-    background-color: #0C7199;
+    background-color: #1D8DA7;
     padding: 20px;
   }
   
   /* Card */
   .MuiCard-root {
-    background-color: #E6DA12;
+    background-color: #F9E12C;
   }
   
   /* Card Media */
@@ -26,23 +26,23 @@ body {
   
   /* Card Content */
   .MuiCardContent-root {
-    background-color: #E64060;
-    color: #999214;
+    background-color: #F85E7C;
+    color: #F3C91E;
   }
   
   /* Expansion Panel */
   .MuiExpansionPanel-root.Mui-expanded {
-    background-color: #E64060;
+    background-color: #F85E7C;
   }
   
   /* Expansion Panel Summary */
   .MuiExpansionPanelSummary-content.Mui-expanded {
-    color: #999214;
+    color: #F3C91E;
   }
   
   /* Expansion Panel Details */
   .MuiExpansionPanelDetails-root.Mui-expanded {
-    background-color: #E6DA12;
-    color: #999214;
+    background-color: #F9E12C;
+    color: #F3C91E;
   }
   
