@@ -46,3 +46,9 @@ body {
     color: #F3C91E;
   }
   
+  code {
+    background-color: white;
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+  }
+  
